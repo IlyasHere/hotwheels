@@ -253,8 +253,7 @@ header{
     margin-bottom: 1.25rem;
     font-weight: 400;
 }
-
-    
+   
 
 footer{
     display: flex;
@@ -329,7 +328,6 @@ footer .left, .footer .right{
     font-weight: bold;
     margin-right: 60px;
     font-style: italic;
-
 }
 
 .privacy{
@@ -339,5 +337,6 @@ footer .left, .footer .right{
 .cookie{
     color: red;
 }
+
 
 

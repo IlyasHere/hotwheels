@@ -157,6 +157,8 @@ header {
     width: 298px;
     height: 100px;
     padding-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .title {
@@ -277,6 +279,7 @@ header {
     font-size: 40px;
     color: #fff;
 }
+
 
 footer{
     display: flex;
