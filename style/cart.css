@@ -342,9 +342,9 @@ nav ul li a:hover{
 
 }
 
-.input-quantity[type="number"]::-webkit-outer-spin-button,
+/* .input-quantity[type="number"]::-webkit-outer-spin-button,
 .input-quantity[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}
+} */
 

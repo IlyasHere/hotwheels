@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #11315A;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.content-box{
+    background: #11315A;
+    background-clip: padding-box;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.review-block__content {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .14px;
+    line-height: 23px;
+    color: #fff;
+    opacity: .57;
+    padding-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
+.review-block__label {
+    color: #737373;
+    padding-right: 1.1428571429em;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 5em;
+    -ms-flex: 0 1 5em;
+    flex: 0 1 5em;
+    display: flex;
+    align-items: center;
+}
+.review-block__inner{
+    align-items: center;
+    display: flex;
+    
+}
+
+
