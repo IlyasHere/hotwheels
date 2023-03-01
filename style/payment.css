@@ -56,8 +56,11 @@ body {
 }
 
 .address{
-
     color: white;
+}
+
+.address h3 {
+    height: 50px;
 }
 
 form{
@@ -70,7 +73,8 @@ select {
     background-color: #11315A;
     color: white;
     font-size: 16px;
-    border: 0.5px solid #ccc;
+    border: 2px solid #70839C;
+    border-radius: 3px
 
 }
 ::placeholder {
@@ -85,7 +89,8 @@ input {
     color: white;
     font-size: 16px;
     margin-top: 1rem;
-    border: 0.5px solid #ccc;
+    border: 2px solid #70839C;
+    border-radius: 3px;
 }
 
 .return{
@@ -119,7 +124,7 @@ margin-top: 2rem;
 .column.right {
     width: 40%;
     background-color: #0E2D55;
-    height: 55rem;
+    height: 65rem;
 }
 
 .product{
@@ -155,10 +160,12 @@ margin-top: 2rem;
     width: 40%;
     float: left;
 }
+
 .text-box p{
     font-size: 1.5rem;
     padding: 30px 0;
     font-weight: 600;
+    text-align: right;
 }
     
 .under-line{
@@ -181,6 +188,7 @@ margin-top: 2rem;
 .subtotal p{
     font-size: 1rem;
     font-weight: 600;
+    text-align: right;
 }
 
 .shipping{
@@ -195,6 +203,7 @@ margin-top: 2rem;
 .shipping p{
     font-size: 1rem;
     font-weight: 600;
+    text-align: right;
 }
 
 .total{
@@ -209,4 +218,5 @@ margin-top: 2rem;
 .total h2{
     font-size: 2rem;
     font-weight: 600;
+    text-align: right;
 }
